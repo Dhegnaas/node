@@ -1,0 +1,4 @@
+table{width: 100%;}
+table,th,td{border: 1px solid blue; border-collapse:collapse;}
+thead{background-color: #1f1f1f; color: white;} 
+th,td{padding: 5px;}
