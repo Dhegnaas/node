@@ -3,17 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
+    <title>Login</title>
 </head>
 <body>
     <fieldset>
-  <legend>Login form</legend>
-  <form action="/login" method="get">
-    <p>User Name: <input type="text" name="txtuser" placeholder="enter username"></p>
-    <p>Password: <input type="password" name="txtpass" placeholder="Password"></p>
-    <input type="submit" value="save">
-  </form>
-</fieldset>
+        <legend>Login form</legend>
+        <form action="/login" method="get" id="fm">
+            <p>
+                User Name: 
+                <input type="text" name="txtuser" placeholder="Enter username" autocomplete="username">
+            </p>
+            <p>
+                Password: 
+                <input type="password" name="txtpass" placeholder="Password" autocomplete="current-password">
+            </p>
+            <input type="submit" value="Save" id="bsave">
+        </form>
+    </fieldset>
+    <div id="pp"></div>
 
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        crossorigin="anonymous"></script>
+    <script src="script1.js"></script>
 </body>
 </html>
